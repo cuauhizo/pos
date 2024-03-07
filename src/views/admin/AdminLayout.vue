@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup>
   import AdminNav from '@/components/AdminNav.vue'
 </script>
 
