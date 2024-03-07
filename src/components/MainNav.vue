@@ -32,7 +32,7 @@ const products = useProductsStore()
       </div>
       <nav>
         <Link
-        to="admin">
+        to="sales">
           Administrar
         </Link>
       </nav>
