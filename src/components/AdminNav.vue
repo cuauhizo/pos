@@ -13,7 +13,7 @@ function toggleMenu() {
 </script>
 
 <template>
-  <header class="px-5 md:px-10 py-5 bg-gray-700 top-0 w-full z-10">
+  <header class="px-5 md:px-10 py-5 bg-gray-700 top-0 w-full z-10 absolute">
     <nav class="flex flex-wrap items-end justify-between gap-2">
       <Logo/>
       <div class="flex md:hidden">
