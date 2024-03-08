@@ -7,8 +7,8 @@ const products = useProductsStore()
 </script>
 
 <template>
-    <header class="px-10 py-5 bg-gray-700 flex flex-col lg:flex-row gap-5 lg:items-center lg:justify-between absolute top-0 w-full z-10">
-      <div>
+    <header class="px-5 md:px-10 py-5 bg-gray-700 top-0 w-full z-10 absolute">
+      <nav class="flex flex-wrap items-end justify-between gap-2">
         <Logo/>
         <div class="flex gap-5 text-white">
           <h2 class="text-lg font-extrabold">Filtros:</h2>
@@ -29,10 +29,10 @@ const products = useProductsStore()
             {{ category.name }}</label>
           </div>
         </div>
-      </div>
-      <nav>
+
         <Link
-        to="sales">
+        to="sales"
+        class="w-full text-center md:w-auto">
           Administrar
         </Link>
       </nav>

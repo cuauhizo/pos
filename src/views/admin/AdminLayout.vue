@@ -4,7 +4,7 @@
 
 <template>
   <AdminNav/>
-    <div class="pt-28 container mx-auto lg:min-h-screen">
+    <div class="md:pt-28 container px-4 mx-auto lg:min-h-screen">
       <RouterView/>
     </div>
 </template>
