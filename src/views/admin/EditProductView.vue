@@ -50,7 +50,7 @@
 </script>
 
 <template>
-    <div class="mt-10">
+    <div>
         <Link
             to="products"
         >
